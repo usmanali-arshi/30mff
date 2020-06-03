@@ -52,7 +52,7 @@ code.addEventListener('click',() => {
 
 	}
 	else{
-		code.src="Nurgazy.jpg";
+		code.src="Nurgazy.png";
 	}
 	
 })
