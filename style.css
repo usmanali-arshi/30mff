@@ -76,6 +76,7 @@ body{
 }
 .thirdpage img:hover {
 	filter:blur(2px);
+	cursor: pointer;
 
 }
 .shift{
