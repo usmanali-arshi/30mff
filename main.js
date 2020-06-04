@@ -1,14 +1,14 @@
-let textAppear= () => {
-	setTimeout(()=>{
-		document.getElementById("motivating-text").innerText = "Allow yourself some time and space to adapt to 	these challenging times."
-	}, 500)
+// let textAppear= () => {
+// 	setTimeout(()=>{
+// 		document.getElementById("motivating-text").innerText = "Allow yourself some time and space to adapt to 	these challenging times."
+// 	}, 500)
 	
-}
+// }
 
-let appear = document.getElementById('title');
+// let appear = document.getElementById('title');
 
 
-appear.addEventListener('mouseover', textAppear)
+// appear.addEventListener('mouseover', textAppear)
 
 
 let dance = document.getElementById('Usman1');
