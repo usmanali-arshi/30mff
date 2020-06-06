@@ -106,11 +106,28 @@ button{
 	height: 300px;
 }
 .thirdpage img:hover {
-	filter:blur(2px);
+	filter:blur(5px);
 	cursor: pointer;
 	transition: .2s ease;
+}
+/*.names{
+	display: inline-block;
+	position: absolute;
+	margin:auto;
+	transform: translate(-170%,320%);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 2.5rem;
+	margin-left: 5%;
+	color:black;
+	text-decoration: underline;
+	text-align: right;	
+	text-shadow: 2px 4px;				
+	margin-left: 4%;
 
 }
+*/
+
 .shift{
 	margin-left: 12%;
 	font-size: 2rem;
@@ -120,6 +137,7 @@ button{
 	margin-left: 12%;
 	font-size: 1.2rem;
 	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
 }
 .headings{
 	margin-left: 2%;

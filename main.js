@@ -1,16 +1,21 @@
-// let textAppear= () => {
-// 	setTimeout(()=>{
-// 		document.getElementById("motivating-text").innerText = "Allow yourself some time and space to adapt to 	these challenging times."
-// 	}, 500)
-	
-// }
 
-// let appear = document.getElementById('title');
+// To enable the scroll event through clickable button 
+
+let section2 = document.getElementById("scrollable");
+section2.addEventListener('click',() =>{
+	window.scroll({
+		top:730,
+		left:0,
+		behavior: 'smooth'
+	});
+	// console.log("pls work")
 
 
-// appear.addEventListener('mouseover', textAppear)
+});
 
-
+// For clickable Actor's images, so that they change to the icons 
+// representing what they did during the lockdown in their individual spaces during Lockdown/Quarantine
+// If statements added so if the user clicks on the pictures again the icons are changed back to the Actor's photos
 let dance = document.getElementById('Usman1');
 dance.addEventListener('click',() => {
 	if (dance.src.match("Usman")) {
