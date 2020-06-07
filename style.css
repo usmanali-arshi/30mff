@@ -74,6 +74,15 @@ button{
 	cursor: pointer;
 }
 
+/*Having a glow effect on the button while hovering*/
+
+button:hover {
+	cursor: pointer;
+	background-image:url("scroll2.png");
+	height: 40px;
+	width: 40px;
+
+}
 .video{
 	width: 50%;
 	height: 400px;
