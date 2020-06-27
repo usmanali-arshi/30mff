@@ -1,4 +1,4 @@
-# usmanali.github.io
+# 30mff: Together We Thrive
 
 Project Name: Together We Thrive.
 
